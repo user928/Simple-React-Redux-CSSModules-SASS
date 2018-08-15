@@ -8,7 +8,7 @@ This app uses:
 | --------- | ------------------- |
 | React     | React               |
 | Redux     | Redux, Redux-Thunk  |
-| CSS       | SASS                |
+| CSS       | SASS, CSS Modules   |
 | Testing   | Enzyme, Sinon, Jest |
 | Formating | Prettier            |
 
