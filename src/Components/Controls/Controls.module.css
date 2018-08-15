@@ -1,20 +1,17 @@
 /* Controls styles */
-@value variables: "../../styles/shared-styles/shared-styles.css";
-@value --red from variables;
-
+/* Colors related variables */
+/* Numbers related variables */
 .controls {
-	display: flex;
-}
+  display: flex; }
 
 .controlAction {
-	composes: paddingALL--xxs noMargin from '../../styles/shared-styles/shared-styles.css';
-	min-width: 40px;
-	text-align: center;
-	background: #fff;
-	color: --red;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 0 0 0 5px;
-	cursor: pointer;
-}
+  composes: paddingALL--sm noMargin from '../../styles/shared-styles/shared-styles.css';
+  min-width: 40px;
+  text-align: center;
+  background: #fff;
+  color: #8affdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 5px;
+  cursor: pointer; }

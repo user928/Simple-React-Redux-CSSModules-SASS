@@ -1,0 +1,19 @@
+/* Controls styles */
+@import '../../styles/shared-styles/variables'; //TODO find a way not to have relative imports...
+
+.controls {
+	display: flex;
+}
+
+.controlAction {
+	composes: paddingALL--sm noMargin from '../../styles/shared-styles/shared-styles.css'; //TODO find a way not to have relative imports...
+	min-width: 40px;
+	text-align: center;
+	background: #fff;
+	color: $red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 0 5px;
+	cursor: pointer;
+}

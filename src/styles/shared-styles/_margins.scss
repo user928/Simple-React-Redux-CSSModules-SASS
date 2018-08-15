@@ -1,112 +1,111 @@
-/* Margin helpers */
-.marginT--xxs {
-	margin-top: 5px;
+/* Margins helpers */
+@import './variables';
+
+.marginT {
+	&--xxs {
+		margin-top: $xxs;
+	}
+	&--xs {
+		margin-top: $xs;
+	}
+	&--sm {
+		margin-top: $sm;
+	}
+	&--md {
+		margin-top: $md;
+	}
+	&--lg {
+		margin-top: $lg;
+	}
+	&--xxl {
+		margin-top: $xxl;
+	}
 }
 
-.marginR--xxs {
-	margin-right: 5px;
+.marginB {
+	&--xxs {
+		margin-bottom: $xxs;
+	}
+	&--xs {
+		margin-bottom: $xs;
+	}
+	&--sm {
+		margin-bottom: $sm;
+	}
+	&--md {
+		margin-bottom: $md;
+	}
+	&--lg {
+		margin-bottom: $lg;
+	}
+	&--xxl {
+		margin-bottom: $xxl;
+	}
 }
 
-.marginB--xxs {
-	margin-bottom: 5px;
+.marginL {
+	&--xxs {
+		margin-left: $xxs;
+	}
+	&--xs {
+		margin-left: $xs;
+	}
+	&--sm {
+		margin-left: $sm;
+	}
+	&--md {
+		margin-left: $md;
+	}
+	&--lg {
+		margin-left: $lg;
+	}
+	&--xxl {
+		margin-left: $xxl;
+	}
 }
 
-.marginL--xxs {
-	margin-left: 5px;
+.marginR {
+	&--xxs {
+		margin-right: $xxs;
+	}
+	&--xs {
+		margin-right: $xs;
+	}
+	&--sm {
+		margin-right: $sm;
+	}
+	&--md {
+		margin-right: $md;
+	}
+	&--lg {
+		margin-right: $lg;
+	}
+	&--xxl {
+		margin-right: $xxl;
+	}
 }
 
-.marginT--xs {
-	margin-top: 10px;
-}
-
-.marginR--xs {
-	margin-right: 10px;
-}
-
-.marginB--xs {
-	margin-bottom: 10px;
-}
-
-.marginL--xs {
-	margin-left: 10px;
-}
-
-.marginT--sm {
-	margin-top: 15px;
-}
-
-.marginR--sm {
-	margin-right: 15px;
-}
-
-.marginB--sm {
-	margin-bottom: 15px;
-}
-
-.marginL--sm {
-	margin-left: 15px;
-}
-
-.marginT--md {
-	margin-top: 20px;
-}
-
-.marginR--md {
-	margin-right: 20px;
-}
-
-.marginB--md {
-	margin-bottom: 20px;
-}
-
-.marginL--md {
-	margin-left: 20px;
-}
-
-.marginT--lg {
-	margin-top: 25px;
-}
-
-.marginR--lg {
-	margin-right: 25px;
-}
-
-.marginB--lg {
-	margin-bottom: 25px;
-}
-
-.marginL--lg {
-	margin-left: 25px;
-}
-
-.marginT--xxl {
-	margin-top: 30px;
-}
-
-.marginR--xxl {
-	margin-right: 30px;
-}
-
-.marginB--xxl {
-	margin-bottom: 30px;
-}
-
-.marginL--xxl {
-	margin-left: 30px;
-}
-
-.marginT--xxxl {
-	margin-top: 35px;
+.marginALL {
+	&--xxs {
+		margin: $xxs;
+	}
+	&--xs {
+		margin: $xs;
+	}
+	&--sm {
+		margin: $sm;
+	}
+	&--md {
+		margin: $md;
+	}
+	&--lg {
+		margin: $lg;
+	}
+	&--xxl {
+		margin: $xxl;
+	}
 }
 
 .noMargin {
 	margin: 0;
-}
-
-.noMarginT {
-	margin-top: 0;
-}
-
-.noMarginB {
-	margin-bottom: 0;
 }
