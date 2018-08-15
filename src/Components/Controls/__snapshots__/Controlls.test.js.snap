@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls component renders correctly 1`] = `
+<div
+  class="controls"
+>
+  <div
+    class="controlAction"
+    data-ui="decrementBtn"
+  >
+    -
+  </div>
+  <div
+    class="controlAction"
+    data-ui="resetBtn"
+  >
+    Reset
+  </div>
+  <div
+    class="controlAction"
+    data-ui="incrementBtn"
+  >
+    +
+  </div>
+</div>
+`;

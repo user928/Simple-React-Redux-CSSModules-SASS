@@ -1,0 +1,20 @@
+/* Controls styles */
+@value variables: "../../styles/shared-styles/shared-styles.css";
+@value --red from variables;
+
+.controls {
+	display: flex;
+}
+
+.controlAction {
+	composes: paddingALL--xxs noMargin from '../../styles/shared-styles/shared-styles.css';
+	min-width: 40px;
+	text-align: center;
+	background: #fff;
+	color: --red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 0 5px;
+	cursor: pointer;
+}
